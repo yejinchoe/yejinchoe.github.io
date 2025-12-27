@@ -1,0 +1,86 @@
+:root{
+  /* Warm, friendly palette (paper + ink + gentle accents) */
+  --bg: #fbf7f0;        /* warm paper */
+  --bg-2: #f4efe6;      /* section tint */
+  --card: #ffffff;
+  --border: #e7dfd3;
+
+  --text: #1f2937;      /* ink */
+  --muted: #5f6b7a;
+
+  --accent: #d97a5d;    /* terracotta */
+  --accent-2: #4f7f6a;  /* sage */
+
+  --shadow: 0 12px 30px rgba(17,24,39,0.08);
+  --radius: 18px;
+
+  --container: 1100px;
+  --pad: 22px;
+
+  --h-font: "Fraunces", ui-serif, Georgia, serif;
+  --b-font: "Inter", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+body{
+  margin:0;
+  font-family: var(--b-font);
+  color: var(--text);
+  background:
+    radial-gradient(900px 700px at 20% 0%, rgba(217,122,93,0.10), transparent 55%),
+    radial-gradient(900px 700px at 85% 10%, rgba(79,127,106,0.10), transparent 60%),
+    linear-gradient(180deg, var(--bg), #fff 60%);
+  line-height: 1.6;
+}
+
+img{ max-width:100%; display:block; }
+a{ color: var(--accent-2); text-underline-offset: 3px; }
+a:hover{ color: var(--accent); }
+
+strong{ font-weight: 650; }
+
+.container{
+  width: min(var(--container), calc(100% - 2*var(--pad)));
+  margin-inline: auto;
+}
+
+.sr-only{
+  position:absolute !important;
+  width:1px;height:1px;
+  padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);
+  border:0;
+}
+
+.skip-link{
+  position:absolute;
+  left:12px; top:12px;
+  padding:10px 12px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  transform: translateY(-160%);
+  transition: transform .2s ease;
+  z-index: 1000;
+}
+.skip-link:focus{ transform: translateY(0); }
+
+.muted{ color: var(--muted); }
+.small{ font-size: 0.94rem; }
+
+.eyebrow{
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-size: 0.80rem;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+h1,h2,h3,h4{
+  font-family: var(--h-font);
+  letter-spacing: -0.01em;
+  line-height: 1.12;
+  margin: 0;
+}
+p{ margin: 0 0 14px; }
