@@ -104,13 +104,13 @@
     hhm: {
       title: "Harvard Homeless Mission",
       dir: "assets/hhm",
-      count: 8, // TODO: set real number
+      count: 129, // TODO: set real number
       intervalMs: 2500,
     },
     andoverhhm: {
       title: "Andover AHHM",
       dir: "assets/andoverhhm",
-      count: 10, // TODO: set real number
+      count: 170, // TODO: set real number
       intervalMs: 2500,
     },
     pantry: {
