@@ -184,26 +184,6 @@
 }
 .card p{ color: var(--muted); }
 
-/* Impact band */
-.impact-band{
-  margin-top: 18px;
-  display:grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-.impact-metric{
-  padding: 14px 14px;
-  border-radius: var(--radius);
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.03);
-}
-.impact-number{
-  font-family: var(--h-font);
-  font-size: 1.55rem;
-  margin: 0 0 2px;
-}
-.impact-label{ color: var(--muted); margin: 0; }
-
 /* Lists */
 .checklist, .bullet{
   margin: 12px 0 0;
@@ -454,11 +434,6 @@ input::placeholder, textarea::placeholder{ color: rgba(255,255,255,0.45); }
 .gallery-item,
 .hero-media,
 .micro-stats,
-.impact-metric{
-  background: var(--card);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-}
 
 .callout{
   border: 1px solid var(--border);
