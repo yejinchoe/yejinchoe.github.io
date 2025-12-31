@@ -74,10 +74,42 @@
           </p>
 
           <div class="chip-row" aria-label="Quick facts">
-            <!-- <span class="chip">Founder &amp; President</span> -->
-            <span class="chip">Lazarus House partnership</span>
-            <span class="chip">Community Pantry delivery program</span>
-          </div>
+            <a
+              class="chip chip-link"
+              href="https://www.instagram.com/harvardhomelessmission"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Harvard Homeless Mission Inc.
+            </a>
+          
+            <a
+              class="chip chip-link"
+              href="https://lazarushouse.org/services/food/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lazarus House Ministries
+            </a>
+
+            <a
+              class="chip chip-link"
+              href="https://www.villagefoodhub.org/pantry-program.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ballard Vale Community Pantry &amp; Fridge
+            </a>
+
+            <a
+              class="chip chip-link"
+              href="https://www.massgeneral.org/volunteer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mass General Hospital Boston
+            </a>
+          </div>  
 
           <div class="hero-actions">
             <a class="btn btn-primary" href="#impact">Explore our impact</a>
@@ -93,7 +125,7 @@
             loading="eager"
             decoding="async"
           />
-          <figcaption class="caption">Template caption: Volunteer outing with community partners (add your real caption).</figcaption>
+          <figcaption class="caption">Icecream station at Lazarus House Ministries Soup Kitchen in Lawrence, MA.</figcaption>
         </figure>
       </div>
 
@@ -120,42 +152,90 @@
       <div class="container">
         <header class="section-header">
           <p class="eyebrow">Gallery</p>
-          <h2>Moments from our work</h2>
-          <p class="section-subtitle">Horizontal scroll gallery with captions — replace the image file names with real photos.</p>
+          <h2>Photo albums</h2>
+          <p class="section-subtitle">
+            Four partnerships, four albums. Each preview rotates through highlights—click any album to view all photos.
+          </p>
         </header>
 
-        <div class="gallery" aria-label="Photo gallery">
-          <div class="gallery-track" role="list">
-            <figure class="gallery-item" role="listitem">
-              <img src="assets/gallery-01.jpg" alt="Template: Volunteers preparing supplies" loading="lazy" decoding="async" />
-              <figcaption><span class="tag">Volunteer outing</span> Template caption for image 1</figcaption>
-            </figure>
+        <div class="album-grid" aria-label="Photo albums">
+          <!-- Album 1 -->
+          <button class="album-card" type="button" data-album="andoverhhm" aria-label="Open Andover AHHM album">
+            <div class="album-preview">
+              <img class="album-img album-img--a is-active" src="assets/andoverhhm/IMAGE_1.jpg" alt="Andover AHHM album preview" decoding="async" />
+              <img class="album-img album-img--b" src="assets/andoverhhm/IMAGE_1.jpg" alt="" aria-hidden="true" decoding="async" />
+            </div>
+            <div class="album-meta">
+              <h3 class="album-title">Andover AHHM</h3>
+              <p class="album-subtitle">Andover • Student-led service</p>
+              <p class="album-hint">Click to view all photos</p>
+            </div>
+          </button>
 
-            <figure class="gallery-item" role="listitem">
-              <img src="assets/gallery-02.jpg" alt="Template: Students at a community partner site" loading="lazy" decoding="async" />
-              <figcaption><span class="tag">Partnership</span> Template caption for image 2</figcaption>
-            </figure>
+          <!-- Album 2 -->
+          <button class="album-card" type="button" data-album="hospital" aria-label="Open Hospital volunteering album">
+            <div class="album-preview">
+              <img class="album-img album-img--a is-active" src="assets/hospital/IMAGE_1.jpg" alt="Hospital volunteering album preview" decoding="async" />
+              <img class="album-img album-img--b" src="assets/hospital/IMAGE_1.jpg" alt="" aria-hidden="true" decoding="async" />
+            </div>
+            <div class="album-meta">
+              <h3 class="album-title">Mass General Hospital</h3>
+              <p class="album-subtitle">Boston • Volunteering</p>
+              <p class="album-hint">Click to view all photos</p>
+            </div>
+          </button>
 
-            <figure class="gallery-item" role="listitem">
-              <img src="assets/gallery-03.jpg" alt="Template: Packing meal containers" loading="lazy" decoding="async" />
-              <figcaption><span class="tag">Food access</span> Template caption for image 3</figcaption>
-            </figure>
+          <!-- Album 3 -->
+          <button class="album-card" type="button" data-album="hhm" aria-label="Open Harvard Homeless Mission album">
+            <div class="album-preview">
+              <img class="album-img album-img--a is-active" src="assets/hhm/IMAGE_1.jpg" alt="Harvard Homeless Mission album preview" decoding="async" />
+              <img class="album-img album-img--b" src="assets/hhm/IMAGE_1.jpg" alt="" aria-hidden="true" decoding="async" />
+            </div>
+            <div class="album-meta">
+              <h3 class="album-title">Harvard Homeless Mission</h3>
+              <p class="album-subtitle">Boston/Cambridge • Parent organization</p>
+              <p class="album-hint">Click to view all photos</p>
+            </div>
+          </button>
 
-            <figure class="gallery-item" role="listitem">
-              <img src="assets/gallery-04.jpg" alt="Template: Donation drive" loading="lazy" decoding="async" />
-              <figcaption><span class="tag">Community</span> Template caption for image 4</figcaption>
-            </figure>
-
-            <figure class="gallery-item" role="listitem">
-              <img src="assets/gallery-05.jpg" alt="Template: Team photo" loading="lazy" decoding="async" />
-              <figcaption><span class="tag">Team</span> Template caption for image 5</figcaption>
-            </figure>
-          </div>
+          <!-- Album 4 -->
+          <button class="album-card" type="button" data-album="pantry" aria-label="Open Pantry &amp; Fridge album">
+            <div class="album-preview">
+              <img class="album-img album-img--a is-active" src="assets/pantry/IMAGE_1.jpg" alt="Pantry &amp; Fridge album preview" decoding="async" />
+              <img class="album-img album-img--b" src="assets/pantry/IMAGE_1.jpg" alt="" aria-hidden="true" decoding="async" />
+            </div>
+            <div class="album-meta">
+              <h3 class="album-title">Ballard Vale Pantry &amp; Fridge</h3>
+              <p class="album-subtitle">Andover • Food access</p>
+              <p class="album-hint">Click to view all photos</p>
+            </div>
+          </button>
         </div>
 
-        <p class="muted small">Tip: Use 1200px+ wide images for best quality. Keep captions short (one line).</p>
+        <p class="muted small">
+          Tip: Keep photos ~1200px wide or larger for crisp previews. Use permissions before publishing identifiable faces.
+        </p>
       </div>
     </section>
+
+    <!-- Gallery Modal (place once, ideally right after the Gallery section) -->
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="gallery-modal__backdrop" data-close="true"></div>
+
+      <div class="gallery-modal__dialog" role="document" aria-label="Album viewer">
+        <div class="gallery-modal__header">
+          <div>
+            <p class="gallery-modal__eyebrow">Album</p>
+            <h3 class="gallery-modal__title" id="galleryModalTitle">Album</h3>
+          </div>
+          <button class="gallery-modal__close" type="button" aria-label="Close album" data-close="true">✕</button>
+        </div>
+
+        <div class="gallery-modal__body">
+          <div class="gallery-modal__grid" id="galleryModalGrid" aria-label="Album photos"></div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Impact -->
@@ -246,51 +326,96 @@
           </p>
         </header>
 
-        <div class="two-col">
+        <div class="partner-intro">
           <div>
-            <h3 class="subhead">Lazarus House Soup Kitchen</h3>
+            <h3 class="subhead">What partnership looks like</h3>
             <p>
-              Template copy: Lazarus House provides essential services in Lawrence, MA. Our club helps coordinate student volunteer outings
-              that support their operations and build lasting collaboration.
+              Our club connects students with trusted community organizations and supports them with reliable, respectful help.
+              We coordinate logistics, set clear expectations, and prioritize service that preserves dignity.
             </p>
+
             <ul class="checklist">
-              <li>Organized student transportation and scheduling</li>
-              <li>Prepared volunteers with expectations and respectful service guidelines</li>
-              <li>Maintained communication with partner staff for smooth handoffs</li>
+              <li>Coordinate sign-ups, transportation, and scheduling</li>
+              <li>Prepare volunteers with expectations and respectful service guidelines</li>
+              <li>Communicate with partner staff to support smooth handoffs</li>
+              <li>Recruit and sustain student involvement over time</li>
             </ul>
           </div>
-
-          <aside class="partner-cards" aria-label="Partners">
-            <article class="partner-card">
-              <div class="partner-top">
-                <img class="partner-logo" src="assets/partner-lazarus-house.png" alt="Lazarus House logo (placeholder)" loading="lazy" decoding="async" />
-                <div>
-                  <h4>Lazarus House</h4>
-                  <p class="muted">Lawrence, MA • Community partner</p>
-                </div>
-              </div>
-              <p class="partner-desc">Template: Volunteer outings and support for soup kitchen services.</p>
-            </article>
-
-            <article class="partner-card">
-              <div class="partner-top">
-                <img class="partner-logo" src="assets/partner-andover-pantry.png" alt="Andover Community Pantry logo (placeholder)" loading="lazy" decoding="async" />
-                <div>
-                  <h4>Andover Community Pantry</h4>
-                  <p class="muted">Andover, MA • Local collaboration</p>
-                </div>
-              </div>
-              <p class="partner-desc">Template: Planned delivery program concept to improve access for those without transportation.</p>
-            </article>
-          </aside>
         </div>
+
+        <!-- Partners grid -->
+        <aside class="partner-grid" aria-label="Partners">
+          <article class="partner-card">
+            <div class="partner-top">
+              <img class="partner-logo" src="assets/partner-lazarus-house.png" alt="Lazarus House logo (placeholder)" loading="lazy" decoding="async" />
+              <div>
+                <h4>Lazarus House Ministries</h4>
+                <p class="muted">Lawrence, MA • Community partner</p>
+              </div>
+            </div>
+            <p class="partner-desc">
+              Coordinated student volunteer outings to support food services and help strengthen ongoing collaboration.
+            </p>
+            <p class="partner-desc">
+              <a class="text-link" href="https://lazarushouse.org/services/food/" target="_blank" rel="noopener noreferrer">Learn more</a>
+            </p>
+          </article>
+
+          <article class="partner-card">
+            <div class="partner-top">
+              <img class="partner-logo" src="assets/partner-mass-general-hospital.png" alt="Massachusetts General Hospital logo (placeholder)" loading="lazy" decoding="async" />
+              <div>
+                <h4>Mass General Hospital</h4>
+                <p class="muted">Boston, MA • Volunteer service</p>
+              </div>
+            </div>
+            <p class="partner-desc">
+              A separate volunteering commitment demonstrating long-term service and responsibility in a clinical/hospital setting.
+            </p>
+            <p class="partner-desc">
+              <a class="text-link" href="https://www.massgeneral.org/volunteer" target="_blank" rel="noopener noreferrer">Volunteer information</a>
+            </p>
+          </article>
+
+          <article class="partner-card">
+            <div class="partner-top">
+              <img class="partner-logo" src="assets/partner-andover-pantry.jpeg" alt="Ballard Vale Community Pantry & Fridge logo (placeholder)" loading="lazy" decoding="async" />
+              <div>
+                <h4>Ballard Vale Community Pantry &amp; Fridge</h4>
+                <p class="muted">Andover, MA • Local collaboration</p>
+              </div>
+            </div>
+            <p class="partner-desc">
+              Supported pantry access efforts and explored ways to improve reach for neighbors facing transportation or scheduling barriers.
+            </p>
+            <p class="partner-desc">
+              <a class="text-link" href="https://www.villagefoodhub.org/pantry-program.html" target="_blank" rel="noopener noreferrer">Pantry program</a>
+            </p>
+          </article>
+
+          <article class="partner-card">
+            <div class="partner-top">
+              <img class="partner-logo" src="assets/partner-harvard-homeless-mission.png" alt="Harvard Homeless Mission logo (placeholder)" loading="lazy" decoding="async" />
+              <div>
+                <h4>Harvard Homeless Mission Inc.</h4>
+                <p class="muted">Boston/Cambridge, MA • Parent organization</p>
+              </div>
+            </div>
+            <p class="partner-desc">
+              Andover AHHM is a local branch supporting the broader mission of Harvard Homeless Mission through consistent service and community engagement.
+            </p>
+            <p class="partner-desc">
+              <a class="text-link" href="https://www.instagram.com/harvardhomelessmission" target="_blank" rel="noopener noreferrer">View on Instagram</a>
+            </p>
+          </article>
+        </aside>
 
         <div class="steps" aria-label="How students get involved">
           <h3 class="subhead">How students get involved</h3>
           <ol class="step-list">
             <li>
               <span class="step-title">Join an outing</span>
-              <span class="step-desc">Sign up for a scheduled volunteer opportunity (template: monthly or bi-weekly).</span>
+              <span class="step-desc">Sign up for a scheduled volunteer opportunity.</span>
             </li>
             <li>
               <span class="step-title">Prepare</span>
@@ -369,17 +494,17 @@
           <p class="eyebrow">Contact</p>
           <h2>Reach out</h2>
           <p class="section-subtitle">
-            For volunteering, collaboration, or questions, contact us below. (Template links — replace with real info.)
+            For volunteering, collaboration, or questions, contact us below.
           </p>
         </header>
 
         <div class="contact-grid">
           <div class="contact-card">
-            <h3>Contact information</h3>
+            <h3>Contact Information</h3>
             <ul class="contact-list">
               <li>
                 <span class="contact-label">Email</span>
-                <a href="mailto:andoverharvardhomeless@gmail.com">andoverharvardhomeless@gmail.com</a>
+                <span class="contact-text">yejin.choe47@gmail.com</span>
               </li>
               <li>
                 <span class="contact-label">Location</span>
@@ -394,32 +519,17 @@
             </ul>
 
             <div class="contact-actions">
-              <a class="btn btn-primary" href="mailto:andoverharvardhomeless@gmail.com?subject=Andover%20Harvard%20Homeless%20Mission%20Inquiry">Email us</a>
+              <a
+                class="btn btn-primary"
+                href="https://mail.google.com/mail/?view=cm&to=yejin.choe47@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email us
+              </a>
               <a class="btn btn-ghost" href="#top">Back to top</a>
             </div>
           </div>
-
-          <form class="contact-form" aria-label="Contact form" onsubmit="return false;">
-            <h3>Quick message</h3>
-            <p class="muted small">Static-site template: this form does not submit yet. If you want, we can wire it to Netlify Forms later.</p>
-
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" autocomplete="name" />
-            </label>
-
-            <label>
-              Email
-              <input type="email" name="email" placeholder="you@example.com" autocomplete="email" />
-            </label>
-
-            <label>
-              Message
-              <textarea name="message" rows="5" placeholder="How can we help?"></textarea>
-            </label>
-
-            <button class="btn btn-primary" type="submit">Send (template)</button>
-          </form>
         </div>
       </div>
     </section>
