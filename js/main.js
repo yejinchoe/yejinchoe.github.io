@@ -104,25 +104,25 @@
     hhm: {
       title: "Harvard Homeless Mission",
       dir: "assets/hhm",
-      count: 129, // TODO: set real number
+      count: 87, // TODO: set real number
       intervalMs: 2500,
     },
     andoverhhm: {
       title: "Andover AHHM",
       dir: "assets/andoverhhm",
-      count: 170, // TODO: set real number
+      count: 144, // TODO: set real number
       intervalMs: 2500,
     },
     pantry: {
       title: "Ballard Vale Pantry & Fridge",
       dir: "assets/pantry",
-      count: 68, // TODO: set real number
+      count: 52, // TODO: set real number
       intervalMs: 2500,
     },
     hospital: {
       title: "Mass General Hospital",
       dir: "assets/hospital",
-      count: 70, // TODO: set real number
+      count: 71, // TODO: set real number
       intervalMs: 2500,
     },
   };
